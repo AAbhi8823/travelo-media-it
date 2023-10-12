@@ -12,7 +12,7 @@
  ## POST/api/v1/user/add-user
  - It is a user RTEGISTER API
 
-### Req Body:
+### Request Body:
 ```
 {
     "name": "Abhishek Kumar",
@@ -21,7 +21,7 @@
     "password": "abc@123"
 }
 ```
-### Res Body:
+### Response Body:
 ```
 {
     "resData": {
