@@ -44,6 +44,7 @@
 ## POST/api/v1/user/login
 - User login  API
 - User will login using registered Email & Password
+- HTTP STATUS CODE 200
 
 - ### Request Body:
   ```
