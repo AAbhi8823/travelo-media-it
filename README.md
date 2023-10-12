@@ -52,8 +52,10 @@
     "password":"abc@123"
   }
   ```
-  ### Response:
+
   
+  ### Response:
+```
 {
     "status": true,
     "message": "User logged in successfully",
