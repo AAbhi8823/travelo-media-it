@@ -5,3 +5,6 @@
 - Basically, the website will contain all the company's services.
 - A section that will have its portfolio.
 - A  section for contact us through which service seeker will make contact.
+- 
+
+## Routes/URL Endpoint:
