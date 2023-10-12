@@ -53,7 +53,7 @@
   }
   ```
   ### Response:
-  ```
+  
 {
     "status": true,
     "message": "User logged in successfully",
