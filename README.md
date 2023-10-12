@@ -52,6 +52,7 @@
     "password":"abc@123"
   }
   ```
+  ### Response:
   ```
 {
     "status": true,
