@@ -41,4 +41,25 @@
     }
 }
 ```
+## POST/api/v1/user/login
+- User login  API
+- User will login using registered Email & Password
+
+- ### Request Body:
+  ```
+  {
+    "email":"abc123@gmail.com",
+    "password":"abc@123"
+}
+ ```
+
+## Response:
+```
+{
+    "status": true,
+    "message": "User logged in successfully",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7Il9pZCI6IjY1Mjc5ZTFlMzljZTEyZTUyYTk5OTAzNSIsImlzQWRtaW4iOmZhbHNlfSwiaWF0IjoxNjk3MDk1NjA4LCJleHAiOjE2OTcwOTU5MDh9.VWZgaBMmpA4B1kOedtyQTjHe3qlfBSu5zzBn8cW7csQ"
+}
+
+```
 
