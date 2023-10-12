@@ -8,4 +8,7 @@
 - 
 
  Routes/URL Endpoint:
+ # USER APIs:
+ ## POST/api/v1/user/add-user
+ - It is a user RTEGISTER API
 
