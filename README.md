@@ -1,4 +1,4 @@
-# Travelo-Media-IT
+# Travelo-Media-IT, APIs Documentations
 ## Tech Stacks: MERN
 ### Key Points:
 - This is an informative website for Travelo Media IT Solutions. 
