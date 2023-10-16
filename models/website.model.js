@@ -55,8 +55,10 @@ const websiteSchema = new mongoose.Schema(
     portfolio: [
       {
         name: { type: String, required: false, trim: true },
-        description: { type: String, required: false, trim: true },
+        meta_data_description: { type: String, required: false, trim: true },
         sub_description: { type: String, required: false, trim: true },
+        description: { type: String, required: false, trim: true },
+
         image: { type: String, required: false, trim: true },
       },
     ],
@@ -66,13 +68,13 @@ const websiteSchema = new mongoose.Schema(
         name: { type: String, required: false, trim: true },
         description: { type: String, required: false, trim: true },
         image: { type: String, required: false, trim: true },
-        bpo_sub_solutions: [ 
+        bpo_sub_solutions: [
           {
             name: { type: String, required: false, trim: true },
             description: { type: String, required: false, trim: true },
             image: { type: String, required: false, trim: true },
           },
-        ],    
+        ],
       },
     ],
     products: [
