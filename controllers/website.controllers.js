@@ -93,7 +93,7 @@ exports.get_website = [
       const website = await websit_model.find();
       return apiResponse.successResponseWithData(
         res,
-        "Website fetched successfully.........!",
+        "Website fetched successfully.........Response From AWS!",
         website
       );
     } catch (err) {
