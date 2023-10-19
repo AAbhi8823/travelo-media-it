@@ -63,5 +63,7 @@
     "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7Il9pZCI6IjY1Mjc5ZTFlMzljZTEyZTUyYTk5OTAzNSIsImlzQWRtaW4iOmZhbHNlfSwiaWF0IjoxNjk3MDk1NjA4LCJleHAiOjE2OTcwOTU5MDh9.VWZgaBMmpA4B1kOedtyQTjHe3qlfBSu5zzBn8cW7csQ"
 }
 ```
-
+## POST/api/v1/user/update-user/:user_id
+- User will update the personal details
+- 
 
