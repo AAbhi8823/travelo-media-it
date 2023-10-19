@@ -19,7 +19,7 @@ const mongoose = require("mongoose");
 
 //mongodb connection
 
-mongoose.Promise = global.Promise;
+//mongoose.Promise = global.Promise;
 
 /**
  * Connect to MongoDB
