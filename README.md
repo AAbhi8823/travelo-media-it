@@ -65,5 +65,4 @@
 ```
 ## POST/api/v1/user/update-user/:user_id
 - User will update the personal details
-- 
 
