@@ -9,6 +9,7 @@ const serviceRoutes=require('./services.routes')
 const contactusRoutes=require('./contactus.routes')
 const faqsRoutes=require('./faqs.routes') 
 const bpoRoutes=require('./bpo.solution.routes')  
+const portfolioRoutes=require('./portfolio.routes')
 
 
 
@@ -20,6 +21,7 @@ app.use('/service',serviceRoutes)
 app.use('/contactus',contactusRoutes);
 app.use('/faqs',faqsRoutes);
 app.use('/bpo',bpoRoutes);
+app.use('/portfolio',portfolioRoutes);
 
 
 
