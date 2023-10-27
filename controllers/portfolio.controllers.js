@@ -53,7 +53,7 @@ exports.add_portfolio = [
 //update portfolio
 
 exports.update_portfolio = [
-    login_validator,
+    //login_validator,
     async (req, res) => {
         try {
             const errors = validationResult(req);
